@@ -13,10 +13,27 @@
 - StateFlow
 
 ## 📸 Screenshots
-(Add screenshots here)
+### 📰 News List Screen
+![News List](screenshots/Splash.png)
+
+### 📰 News List Screen
+![News List](screenshots/ListScreen.png)
+
+### 📄 Detail Screen
+![Detail](screenshots/DetailScreen.png)
 
 ## 🧠 Architecture
 MVVM with Repository pattern
+
+## ✨ Features
+- News API integration
+- Jetpack Compose UI
+- Navigation between screens
+- Image loading using Coil
+- MVVM Architecture
+
+## ⚠️ Note
+Add your NewsAPI key in MainActivity to run the project.
 
 ## 🚀 How to run
 1. Clone repo

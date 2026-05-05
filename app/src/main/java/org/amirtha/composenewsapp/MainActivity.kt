@@ -45,7 +45,7 @@ class MainActivity : ComponentActivity() {
                     NavGraph(
                         modifier = Modifier.padding(innerPadding),
                         viewModel = viewModel,
-                        apiKey = stringResource(id = R.string.API_KEY)
+                        apiKey = BuildConfig.API_KEY
                     )
                 }
             }
