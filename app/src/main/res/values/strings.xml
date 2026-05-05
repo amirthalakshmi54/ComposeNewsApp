@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ComposeNewsApp</string>
+    <string name="API_KEY">79290ec5905b4bfca411566144b74a7b</string>
 </resources>
