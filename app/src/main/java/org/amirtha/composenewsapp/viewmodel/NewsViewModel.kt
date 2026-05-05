@@ -13,6 +13,13 @@ class NewsViewModel(private val repository: NewsRepository) : ViewModel() {
     private val _news = MutableStateFlow<List<Article>>(emptyList())
     val news: StateFlow<List<Article>> = _news
 
+    private val _selectedArticle = MutableStateFlow<Article?>(null)
+    val selectedArticle: StateFlow<Article?> = _selectedArticle
+
+    fun selectArticle(article: Article) {
+        _selectedArticle.value = article
+    }
+
     private val _loading = MutableStateFlow(false)
     val loading: StateFlow<Boolean> = _loading
 
