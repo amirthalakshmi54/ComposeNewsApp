@@ -13,15 +13,13 @@
 - StateFlow
 
 ## 📸 Screenshots
-### 📰 News List Screen
-![News List](screenshots/Splash.png)
+### Splash | List | Detail
 
-### 📰 News List Screen
-![News List](screenshots/ListScreen.png)
-
-### 📄 Detail Screen
-![Detail](screenshots/DetailScreen.png)
-
+<p float="left">
+  <img src="screenshots/Splash.png" width="30%" />
+  <img src="screenshots/ListScreen.png" width="30%" />
+  <img src="screenshots/DetailScreen.png" width="30%" />
+</p>
 ## 🧠 Architecture
 MVVM with Repository pattern
 
